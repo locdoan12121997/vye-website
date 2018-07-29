@@ -33,6 +33,18 @@ document.querySelector('a[href="http://bootcamp2018.vye.vn/wp-content/uploads/20
 document.querySelector('a[href="http://bootcamp2018.vye.vn/wp-content/uploads/2018/07/poster_the-ultimate-business-master-class-03.jpg"]').setAttribute("onclick", '$("a.fancylink").trigger("click");');
 document.querySelector('img[alt="Tom Kosnik"]').setAttribute("onmouseover", "this.src='http://bootcamp2018.vye.vn/wp-content/uploads/2018/07/Tom-Kosnik-.jpg'");
 document.querySelector('img[alt="Tom Kosnik"]').setAttribute("onmouseout", "this.src='http://bootcamp2018.vye.vn/wp-content/uploads/2018/07/Tom-Kosnik-1-1-500x500.jpg'");
+document.querySelector('a[href="http://bootcamp2018.vye.vn/speaker/tran-nhat-khanh/"]').setAttribute("href", "http://bootcamp2018.vye.vn/wp-content/uploads/2018/07/speaker_TUBMC-09.jpg");
+document.querySelector('a[href="http://bootcamp2018.vye.vn/wp-content/uploads/2018/07/poster_the-ultimate-business-master-class-03.jpg"]').classList.add('fancylink');
+document.querySelector('a[href="http://bootcamp2018.vye.vn/wp-content/uploads/2018/07/poster_the-ultimate-business-master-class-03.jpg"]').setAttribute("onclick", '$("a.fancylink").trigger("click");');
+document.querySelector('img[alt="Trần Nhật Khánh"]').setAttribute("onmouseover", "this.src='http://bootcamp2018.vye.vn/wp-content/uploads/2018/07/Tom-Kosnik-.jpg'");
+document.querySelector('img[alt="Trần Nhật Khánh"]').setAttribute("onmouseout", "this.src='http://bootcamp2018.vye.vn/wp-content/uploads/2018/07/Tom-Kosnik-1-1-500x500.jpg'");
+document.querySelector('a[href="http://bootcamp2018.vye.vn/speaker/duong-thu-huong/"]').setAttribute("href", "http://bootcamp2018.vye.vn/wp-content/uploads/2018/07/speaker_TUBMC-08.jpg");
+document.querySelector('a[href="http://bootcamp2018.vye.vn/wp-content/uploads/2018/07/poster_the-ultimate-business-master-class-03.jpg"]').classList.add('fancylink');
+document.querySelector('a[href="http://bootcamp2018.vye.vn/wp-content/uploads/2018/07/poster_the-ultimate-business-master-class-03.jpg"]').setAttribute("onclick", '$("a.fancylink").trigger("click");');
+document.querySelector('img[alt="Đường Thu Hương"]').setAttribute("onmouseover", "this.src='http://bootcamp2018.vye.vn/wp-content/uploads/2018/07/Tom-Kosnik-.jpg'");
+document.querySelector('img[alt="Đường Thu Hương"]').setAttribute("onmouseout", "this.src='http://bootcamp2018.vye.vn/wp-content/uploads/2018/07/Tom-Kosnik-1-1-500x500.jpg'");
 $(document).ready(function() {
 $("a.fancylink").fancybox();
 });
+
+
